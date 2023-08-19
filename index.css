@@ -51,11 +51,10 @@ h1 {
     Font-style: normal;
 }
 .button {
+    padding: 16px 32px 16px 32px;
+    align-items: flex-start;
     background-color: #4D5AE5;
     color:white;
-    display:inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
     cursor: pointer;
     gap: 10px;
 }
@@ -109,10 +108,10 @@ footer a {
     color: white;
 }
 .team {
-        font-family: 'Roboto', sans-serif;
-        font-size: 36px;
-        font-style: normal;
-        color: #2E2F42;
-        text-align: center;
-        line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    color: #2E2F42;
+    text-align: center;
+    line-height: 40px;
 }
