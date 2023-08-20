@@ -107,6 +107,9 @@ footer a {
     text-transform: uppercase;
     color: white;
 }
+.our-team {
+    background-color:#F4F4FD;
+    }
 .team {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -115,3 +118,4 @@ footer a {
     text-align: center;
     line-height: 40px;
 }
+
