@@ -1,32 +1,20 @@
+* {
+    line-height: 1;
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+}
 .first-logo span:first-child {
     text-decoration: none;
-    font-family:'Raleway', sans-serif;
-    font-size: 18px;
     text-transform: uppercase;
     color: #4D5AE5;  
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .first-logo span:last-child {
-    font-family:'Raleway', sans-serif;
-    font-size: 18px;
     text-transform: uppercase;
     color: #2E2F42;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 header a {
     text-decoration: none;
-}
-.studio {
-    font-family: 'roboto', sans-serif;
-    font-size: 16px;
-}
-.portfolio {
-    font-family: 'roboto', sans-serif;
-    font-size: 16px;
-}
-.contacts {
-    font-family: 'roboto', sans-serif;
-    font-size: 16px;
+    color: black;
 }
 .email {
     font-style: normal;
@@ -58,28 +46,15 @@ h1 {
     cursor: pointer;
     gap: 10px;
 }
-.features {
+.button:hover {
+    color: orange;
+}
+body {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    color: #2E2F42;
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px
+    font-size: 16px;
 }
 h2 {
-    font-family: 'roboto', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    text-transform: capitalize;
-    text-align: center;
-}
-h3 > li {
-    width: 360px;
-    height: 300px;
-    align-items: center;
+    font-size: 16px;
 }
 .footer-section {
     background-color: #2E2F42;
@@ -114,8 +89,7 @@ footer a {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
-    color: #2E2F42;
+    color: re;
     text-align: center;
     line-height: 40px;
 }
-
